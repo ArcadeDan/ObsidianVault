@@ -1,0 +1,1 @@
+Text Files &  [[Binary File]] use sequential accessing which uses sequential access or [[Hashing]] 
