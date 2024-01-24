@@ -5,4 +5,4 @@ basically a monoid is a set that has a sole function called the #identity which 
 
 
 
-![[Pasted image 20230506224413.png]]
+![[Groups]]

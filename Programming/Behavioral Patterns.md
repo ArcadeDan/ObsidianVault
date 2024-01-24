@@ -1,4 +1,0 @@
-#Pattern
-
-
-[[Chain of Responsibility]] 

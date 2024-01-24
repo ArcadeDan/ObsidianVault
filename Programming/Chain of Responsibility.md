@@ -7,6 +7,8 @@
 
 chaining mechanism uses recursive composition to allow an unlimited number of handlers to be linked
 
+![[Pasted image 20231213193154.png]]
+
 
 **receiver** objects are added to a chain 
 
@@ -36,3 +38,12 @@ Client ->
 
 Handlers: 
 * can be interface (or abstract class) for handling requests.
+
+
+Consequences
+* Multiple handlers may be able to handle a request.  
+* The sender doesn't know how many handlers are in the chain.  
+* The sender has no control over the handlers.  
+* Only one handler in the chain should handle the request.  
+* Some requests may not be handled at all.  
+* Changing the list of handlers doesn't affect the sender.*
